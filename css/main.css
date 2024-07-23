@@ -115,3 +115,42 @@
 	height: 100%;
 	/* border: 1px solid red */
 }
+
+/* footer */
+.footer {
+	background-color: rgb(53, 53, 53);
+	color: rgb(255, 255, 255);
+	padding: 0 20px;
+}
+
+.footer .footer-wrap {
+	display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .footer-wrap .p {
+	font-size: 0.8rem;
+	line-height: 1.4;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	flex: 1 1 auto;
+	padding: 6.4px 16px;
+	margin: 0px;
+}
+
+.footer .footer-wrap .links {
+	width: 200px;
+	font-size: 13px;
+}
+
+.footer .footer-wrap .link {
+	color: rgb(110, 155, 252);
+	margin-right: 30px;
+}
+
+.footer .footer-wrap .link:last-child {
+	margin-right: 0;
+}
