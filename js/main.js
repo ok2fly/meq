@@ -1,9 +1,9 @@
 const actionSwitchFile = (src) => {
 	const pdfIframe = document.querySelector(".pdf-wrap");
-	// pdfIframe.src = `/pdfjs-4.4.168/web/viewer.html?file=${encodeURIComponent(
-	// 	src
-	// )}`;
-	pdfIframe.src = `/pdfjs/web/viewer.html?file=${src}`;
+	pdfIframe.src = `/meq/pdfjs-4.4.168/web/viewer.html?file=${encodeURIComponent(
+		src
+	)}`;
+	// pdfIframe.src = `/pdfjs/web/viewer.html?file=${src}`;
 };
 
 // const url = "http://localhost:8080/TYPESCRIPT编程.pdf";
