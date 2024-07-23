@@ -14,9 +14,11 @@
 .navBar .nar-con {
   display: flex;
 }
-.navBar .nar-con .logo-item{
+.navBar .nar-con .logo-item a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #bfbfbf;
 }
 
 .navBar .nar-con > .logo-item:not(:last-child) {
