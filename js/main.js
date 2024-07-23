@@ -7,7 +7,7 @@ const actionSwitchFile = (src) => {
 };
 
 // const url = "http://localhost:8080/TYPESCRIPT编程.pdf";
-const url = "http://localhost:8080/001.pdf";
+const url = "/meq/001.pdf";
 
 // actionSwitchFile("https://arxiv.org/pdf/2001.09977.pdf");
 actionSwitchFile(url);
@@ -26,7 +26,7 @@ function downloadFile(url, filename) {
 }
 
 function download() {
-	var url = "http://localhost:8080/001.pdf";
+	var url = "/meq/001.pdf";
 	var filename = "Certificates_Download.pdf";
 
 	var btn = document.getElementById("download");
@@ -58,24 +58,24 @@ const choiseAni = async () => {
 		.querySelector(".choice-wrapper")
 		.querySelectorAll(".arrow");
 	const expandIndex = 0;
-	let isShow= {
-		0:false,
-		1:false
+	let isShow = {
+		0: false,
+		1: false
 	}
 	const handleClick = (e, i) => {
 		const content = e.querySelector(".option-con");
 		const arrow = e.querySelector(".arrow");
-		if(!isShow[i]){
+		if (!isShow[i]) {
 			arrow.style.transform = "rotate(90deg)"; /*箭头旋转*/
 			e.style.height = `${optionExpandedHeight[i]}px`; /* 设置元素高度 */
 			content.style.opacity = `1`;
-		}else{
+		} else {
 			arrow.style.transform =
 				"rotate(0deg)"; /*恢复初始状态，等待点击*/
 			e.style.height = `${optionItemsFoldHeight[i]}px`; /* 设置元素高度 */
 			content.style.opacity = `0`;
 		}
-		isShow[i]=!isShow[i]
+		isShow[i] = !isShow[i]
 	};
 	// /*遍历设置初始状态*/
 	Array.from(nav).forEach((e, i) => {
@@ -92,8 +92,8 @@ const choiseAni = async () => {
 
 		/*默认不展开的状态*/
 		e.style.height = `${optionItemsFoldHeight[i]}px`
-    content.style.opacity = `0`
-    e.addEventListener('click', () => handleClick(e, i))
+		content.style.opacity = `0`
+		e.addEventListener('click', () => handleClick(e, i))
 	});
 };
 choiseAni();
