@@ -1,0 +1,29 @@
+.navBar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid rgba(0,0,0,0.2); */
+  border-bottom: 2px solid rgb(0, 81, 117);
+  padding: 10px 47px 10px 30px;
+}
+.navBar .nav-logo{
+  width: 251px;
+  height: 64px;
+}
+.navBar .nar-con {
+  display: flex;
+}
+.navBar .nar-con .logo-item{
+  display: flex;
+  align-items: center;
+}
+
+.navBar .nar-con > .logo-item:not(:last-child) {
+  margin-right: 30px; /* 设置.logo-item子元素之间的间距，除了最后一个 */
+}
+.navBar .nar-con .logo-item img{
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <!-- 引入模块样式 -->
+   <link rel="stylesheet" href="./css/index.css">
+</head>
+<style ></style>
+<body>
+  <div class="container">
+    <!-- 页面头部 -->
+    <header class="navBar">
+      <div class="nav-logo">
+        <img class="obj-cover" src="./imgs/logo.jpg" alt="logo"></img>
+      </div> 
+      <div class="nar-con">
+        <div class="logo-item font-16">
+          <img src="./imgs/icon/1.svg"  alt="Available logo"/>
+          <span>Home</span>
+        </div>
+        <div class="logo-item font-16">
+          <img src="./imgs/icon/2.svg"  alt="Expires logo"/>
+          <span>Help</span>
+        </div>
+        <div class="logo-item font-16">
+          <img src="./imgs/icon/3.svg"  alt="Reference logo"/>
+          <span>About My eQuals</span>
+        </div>
+      </div>
+    </header>
+    <!-- 页面主体 -->
+    <div class="section">
+      <!-- 头部内容 -->
+      <div class="top">
+        <div class="top-con">
+          <div class="logo" style="width: 348px; height: 114px; margin-right: 40px;">
+            <!-- <img class="obj-cover" src="./imgs/melbourne.jpg" alt=""></img> -->
+            <img class="obj-cover" src="./imgs/IMG_8117.JPG" alt=""></img>
+          </div>
+          <div class="intro-wrap">
+            <div><span class="font-30">Degree Certificate</span><span class="font-24" style="opacity: 0.6;">  issured by The University of Melbourne</span></div>
+            <div class="detail">
+              <div class="icon-item font-16">
+                <img  alt="Available icon" style="width: 20px;height: 20px;" src="./imgs/top/1.svg"/>
+                <span style="color:#098808">Available</span>
+              </div>
+              <div class="icon-item font-16">
+                <img alt="Expires icon" style="width: 20px;height: 20px;" src="./imgs/top/2.png"/>
+                <span>Expires: 23/12/2024</span>
+              </div>
+              <div class="icon-item font-16">
+                <span>Reference: 5T5VK5137UR873</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div  class="download">
+          <div id="download" class="con" ><img src="./imgs/dowload.png" style="width: 20px;height: 20px;" /><span class="font-18" style="margin-left: 4px;">DOWNLOAD PDF</span></div>
+        </div>
+        <div class="certified">
+          <img class="obj-cover" src="./imgs/certified.jpg"></img>
+        </div>
+      </div>
+      <!-- PDF内容 -->
+      <div class="content">
+        <div class="left">
+           <iframe src="./pdfjs-4.4.168/web/viewer.html" frameborder="0" class="pdf-wrap"></iframe>
+        </div>
+        <div class="right"> 
+          <div class="choice-wrapper">
+            <div class="drop-box option">
+              <div class="title font-20">
+                <img class="arrow" src="./imgs/right/up.png"/>
+                <span>Issuer information</span> 
+              </div>
+              <div class="option-con" style="opacity: 0;">
+                Institution:The University of Melbourne<br/>
+                Issued Day: 28/7/2023
+              </div>
+            </div>
+            <div class="drop-box  option">
+              <div class="title font-20">
+                <img class="arrow" src="./imgs/right/up.png"/>
+                <span>Certification information</span> 
+              </div>
+              <div class="option-con" style="opacity: 0;">
+                Name：Zhaoli Zhong<br/>
+                Birth：3/5/1989<br/>
+                Type：Master of Management<br/>
+                Major：Accounting and Finance
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!-- 引入主JS文件 -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

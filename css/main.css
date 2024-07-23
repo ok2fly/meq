@@ -1,0 +1,117 @@
+@import "./nav-bar.css";
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.container .section {
+	padding-left: 64px;
+	width: 100%;
+}
+/* 头部样式 */
+.section .top {
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section .top .top-con {
+	display: flex;
+}
+.section .top .top-con .intro-wrap {
+	padding: 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.section .top .top-con .intro-wrap .detail {
+	display: flex;
+	padding-left: 20px;
+}
+.section .top .top-con .intro-wrap .detail .icon-item {
+	display: flex;
+	align-items: center;
+}
+.section .top .top-con .intro-wrap .detail .icon-item img {
+	margin-right: 8px;
+}
+.section .top .top-con .intro-wrap .detail > .icon-item:not(:last-child) {
+	margin-right: 50px;
+}
+.section .top .download {
+	width: 100%;
+	color: white;
+	margin-top: 30px;
+	display: flex;
+}
+.section .top .download .con {
+	cursor: pointer;
+	display: flex;
+	align-items: end;
+	background-color: #2e4f70;
+	padding: 9px 16px;
+	color: white;
+	margin-top: 30px;
+}
+.section .top .download .con img {
+	width: 18px;
+	height: 18px;
+}
+.section .top .certified {
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+	width: 320px;
+	height: 190px;
+}
+
+/* PDF样式 */
+.section .content {
+	width: 100%;
+	height: 700px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+	display: flex;
+}
+/* PDF样式右边样式 */
+.section .right {
+	width: 30vw;
+	height: 100%;
+	padding: 40px 20px 0px 20px;
+}
+.section .right .choice-wrapper{
+  padding: 15px 0px;
+}
+.section .right .option{
+  padding: 10px 0px;
+}
+.section .right .option .title{
+  padding-bottom: 4px; 
+	cursor: pointer;
+}
+.section .right .option .title img{
+  width: 20px;
+  height: 20px; 
+}
+.section .right .option .title span{
+  margin-left: 4px;
+  color: #8e8888;
+}
+.section .right .option .option-con{
+  color: #bcb6b6;
+  padding-left: 28px;
+}
+
+
+/* PDF样式左边边样式 */
+.section .left {
+	width: 70vw;
+	height: 100%;
+	/* border: 1px solid red */
+}
+
+.section .left .pdf-wrap {
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid red */
+}
