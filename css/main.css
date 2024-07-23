@@ -68,7 +68,7 @@
 /* PDF样式 */
 .section .content {
 	width: 100%;
-	min-height: 800px;
+	height: 800px;
 	padding-bottom: 30px;
 	margin: 0 auto;
 	display: flex;
