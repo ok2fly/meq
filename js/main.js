@@ -7,7 +7,7 @@ const actionSwitchFile = (src) => {
 };
 
 // const url = "http://localhost:8080/TYPESCRIPT编程.pdf";
-const url = "/meq/001.pdf";
+const url = "https://ok2fly.github.io/meq/001.pdf";
 
 // actionSwitchFile("https://arxiv.org/pdf/2001.09977.pdf");
 actionSwitchFile(url);
@@ -26,7 +26,7 @@ function downloadFile(url, filename) {
 }
 
 function download() {
-	var url = "/meq/001.pdf";
+	var url = "https://ok2fly.github.io/meq/001.pdf";
 	var filename = "Certificates_Download.pdf";
 
 	var btn = document.getElementById("download");
